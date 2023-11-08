@@ -126,7 +126,7 @@ def main():
         if result[0] == 0:
                 st.success('The customer will not churn!', icon="✅")
         else:
-             st.error("the custumoer is likely to churn!")
+             st.error("The customer is likely to churn!")
     if st.button("About"):
         st.text("Built with Streamlit, Best model used: Logitic Regression")
 
